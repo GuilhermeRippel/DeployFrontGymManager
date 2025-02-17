@@ -7,7 +7,7 @@ import GraficoAlunoXCapacidade from '../components/Graficos/GraficoAlunoXCapacid
 import GraficoAlunoXMaquinas from '../components/Graficos/GraficoAlunosXMaquinas'
 import GraficoAlunoNoiteXFuncNoite from '../components/Graficos/GraficoAlunoNoiteXFuncNoite'
 import GraficoAlunoManhaXFuncManha from '../components/Graficos/GraficoAlunoManhaXFuncManha'
-import PersonIconGG from '../assets/icons/PersonIconGG.svg'
+import  PersonIcon from "../assets/icons/PersonIconGG.svg";
 
 interface profileInformations {
   nomeResp: string
@@ -47,7 +47,7 @@ function PerfilUsuario() {
         <div className="w-1/3 h-full border-r border-gray-300 flex flex-col justify-center items-center gap-10">
         <h1 className='text-2xl font-bold w-2/3 text-center'>Bem vindo ao seu perfil {profileInformations?.nomeResp}</h1>
           <div className="relative rounded-full w-72 h-72 flex items-center justify-center animate-RotateY">
-             <img src={PersonIconGG} alt="Icone de usuário" className='w-full'/>
+             <img src={PersonIcon} alt="Icone de usuário" className='w-full'/>
           </div>
           <div className='flex flex-col gap-3'>
             <h1 className="text-2xl font-bold">Academia: {profileInformations?.nomeAcad}</h1>
