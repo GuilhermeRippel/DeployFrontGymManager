@@ -7,7 +7,7 @@ import GraficoAlunoXCapacidade from '../components/Graficos/GraficoAlunoXCapacid
 import GraficoAlunoXMaquinas from '../components/Graficos/GraficoAlunosXMaquinas'
 import GraficoAlunoNoiteXFuncNoite from '../components/Graficos/GraficoAlunoNoiteXFuncNoite'
 import GraficoAlunoManhaXFuncManha from '../components/Graficos/GraficoAlunoManhaXFuncManha'
-import  PersonIcon from "../assets/icons/PersonIconGG.svg";
+import  PersonIcon from '../assets/icons/PersonIconGG.svg';
 
 interface profileInformations {
   nomeResp: string
